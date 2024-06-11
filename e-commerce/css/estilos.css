@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden;
+}
+
+.cabecera{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    padding: 100px ;
+    margin: 0 !important;
+}
+.logo{
+    border: 5px solid black;
+    border-radius:100% ;
+    object-fit: cover;
+    width: 250px;
+    height: 250px ;
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.5);
+}
+
+nav{
+    background: rgba(8, 8, 121, 0.849);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    font-weight: 700;
+}
+.redirects{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.carousel-item > img {
+    object-fit: cover;
+    height: 700px;
+}
+
+
+
+.productos>.col>img{
+    object-fit: fill;
+    height: 400px;
+}
+
+article{
+    background: greenyellow;
+}
+
+footer{
+    background: gray;
+    text-align: center;
+    color: blue;
+}
+h2{
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+.card{
+    display: flex;
+    justify-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px #a5a0a6;
+}
+.img-back {
+    height: 300px;
+    margin: 20px 10px 20px 10px;
+    object-fit: fill
+}
+.card p{
+    text-align: center;
+}
+
+.card p:nth-child(1){
+    color: grey;
+    margin-top: -20px;
+    font-size: 20px;
+}
+article{
+    padding: 15px
+}
+.btn-oferta{
+    background-color: rgb(201, 17, 17);
+    border: 1px solid rgb(207, 12, 12);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    color: white;
+    box-shadow: 5px 3px 3px rgba(7, 7, 7, 0.409);
+    
+}
+.redes{
+    width: 100px;
+    height: 100px;
+}

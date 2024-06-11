@@ -1,0 +1,24 @@
+.card{
+margin: 20px;
+background: linear-gradient(217deg, rgba(68, 0, 255, 0.436), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+text-align: center;
+}
+.input-form{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    box-shadow: 5px 3px 3px rgba(7, 7, 7, 0.409);
+}
+
+.btn-form{
+    background-color: rgb(26, 17, 201);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: auto;
+    color: white;
+    box-shadow: 5px 3px 3px rgba(7, 7, 7, 0.409);
+    
+}

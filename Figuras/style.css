@@ -1,0 +1,138 @@
+.container {
+  padding-left: 5%;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+.figura1 {
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 102, 255, 0.836);
+}
+.figura2 {
+  width: 150px;
+  height: 100px;
+  background: rgba(0, 102, 255, 0.836);
+  border: 2px solid black;
+}
+.figura3 {
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 102, 255, 0.836);
+  rotate: 45deg;
+}
+.figura4 {
+  width: 200px;
+  height: 100px;
+  background-color: rgba(0, 102, 255, 0.836);
+  clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 20% 100%);
+}
+.figura5 {
+  width: 100px;
+  height: 100px;
+  background: rgb(11, 158, 23);
+  border-radius: 100%;
+}
+.figura6 {
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 102, 255, 0.836);
+  clip-path: polygon(25% 50%, 50% 100%, 75% 50%, 50% 0%);
+}
+.figura7 {
+  width: 100px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid rgba(0, 102, 255, 0.836);
+}
+.figura8 {
+  width: 100px;
+  height: 150px;
+  background: rgb(11, 158, 23);
+  border-radius: 100% 100% 90% 90%;
+}
+.figura9 {
+  width: 0px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid rgb(250, 192, 31);
+}
+.figura10 {
+  width: 0px;
+  border-left: 0px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid rgb(250, 192, 31);
+}
+.figura11 {
+  width: 0px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 100px solid rgb(250, 192, 31);
+}
+.figura12 {
+  width: 0px;
+  border-left: 150px solid rgb(250, 192, 31);
+  border-bottom: 70px solid transparent;
+  border-top: 70px solid transparent;
+}
+.figura13 {
+  width: 100px;
+  height: 100px;
+  background: rgb(11, 158, 23);
+  border: 2px solid black;
+  border-radius: 0% 100% 0% 0%;
+}
+.figura14 {
+  width: 100px;
+  height: 50px;
+  background: rgb(11, 158, 23);
+  border: 2px solid black;
+  border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
+}
+.figura15 {
+  width: 50px;
+  height: 100px;
+  background: rgb(11, 158, 23);
+  border: 2px solid black;
+  border-radius: 0% 100% 100% 0% / 100% 50% 50% 0%;
+}
+.figura16 {
+  width: 0px;
+  height: 0px;
+  background-color: rgb(11, 158, 23);
+  border-radius: 50%;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-top: 100px solid transparent;
+  border-right: 100px solid white;
+}
+.figura17 {
+  width: 0px;
+  border-left: 150px solid rgb(0, 48, 182);
+  border-bottom: 70px solid red;
+  border-top: 70px solid rgb(240, 190, 27);
+}
+.figura18 {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-top: 100px solid rgb(11, 158, 23);
+  border-right: 100px solid transparent;
+}
+.figura19 {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    border-left: 100px solid rgb(233, 143, 25);
+    border-bottom: 100px solid rgb(11, 158, 23);
+    border-top: 100px solid rgb(1, 99, 180);
+    border-right: 100px solid rgb(184, 0, 0);
+}
+.figura20 {
+    width: 100px;
+    height: 100px;
+    background:rgb(184, 0, 0);
+   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 75%, 0% 100%)
+}
